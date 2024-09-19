@@ -1,0 +1,120 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    height: 100vh;
+}
+
+.container-select {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+
+}
+
+.juegos {
+    border: 2px solid #ccc;
+    padding: 24px 18px;
+    border-radius: 8px;
+    width: 600px;
+}
+
+.card{
+    display: flex;
+    gap: 12px;
+    border: 2px solid #3f3f3f;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.cantidad {
+    background-color: #2e2d2e;
+    z-index: 999;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.contenedor-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.contenedor-btn span a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 2px 12px;
+    border-radius: 12px;
+    margin: 22px;
+    border: 2px solid #102b75;
+}
+
+
+.pagos {
+    padding: 20px 50px;
+}
+
+
+.container-total {
+    background-color: #2e2d2e;
+}
+
+.forma-pago {
+    margin: 18px;
+}
+
+.forma-pago label{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.forma-pago label img {
+    width: 150px;
+}
+
+.efectivo-pago {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 18px;
+}
+
+.efectivo{
+    width: 50px;
+}
+
+button {
+    background:transparent; 
+    color:#fff; 
+    outline:none; 
+    border:1px solid #ccc; 
+    padding: 4px; 
+    border-radius:8px;
+    cursor:pointer;
+}

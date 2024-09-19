@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="checkbox" id="flip" />
+      <div class="cover">
+        <div class="front">
+          <img src="media/image.jpg" alt="" />
+          <div class="text">
+            <span class="text-1"
+              >Bienvenido a <br />
+              Xclusive Games</span
+            >
+
+            <span class="text-2"
+              >El mejor sitio para comprar <br />
+              juegos exclusivos de consolas</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="forms">
+        <div class="form-content">
+          <div class="login-form">
+            <div class="title">Login</div>
+            <form action="php/login.php" method="post">
+              <div class="input-boxes">
+                <div class="input-box">
+                  <i class="fas fa-envelope"></i>
+                  <input
+                    type="text"
+                    name="user"
+                    placeholder="Ingrese nombre de usuario"
+                    required
+                  />
+                </div>
+                <div class="input-box">
+                  <i class="fas fa-lock"></i>
+                  <input
+                    type="password"
+                    name="clave"
+                    placeholder="Ingrese contraseña"
+                    required
+                  />
+                </div>
+                <div class="text"><a href="#">¿Olvido su contraseña?</a></div>
+                <div class="button input-box">
+                  <input type="submit" value="Logiar" />
+                </div>
+                <div class="text sign-up-text">
+                  ¿Todavia no tienes cuenta?
+                  <label for="flip">Registrate</label>
+                </div>
+              </div>
+            </form>
+
+          </div>
+          <div class="signup-form">
+            <div class="title">Signup</div>
+            <form action="php/register.php" method="post">
+              <div class="input-boxes">
+                <div class="input-box">
+                  <i class="fas fa-user"></i>
+                  <input
+                    type="text"
+                    name="usuario"
+                    placeholder="Crea nombre de usuario"
+                    required
+                  />
+                </div>
+                <div class="input-box">
+                  <i class="fas fa-user"></i>
+                  <input
+                    type="text"
+                    name="nombre"
+                    placeholder="Ingrese nombre completo"
+                    required
+                  />
+                </div>
+                <div class="input-box">
+                  <i class="fas fa-lock"></i>
+                  <input
+                    type="password"
+                    name="contra"
+                    placeholder="Crea contraseña"
+                    required
+                  />
+                </div>
+                <div class="input-box">
+                  <i class="fas fa-envelope"></i>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Ingrese email"
+                    required
+                  />
+                </div>
+                <div class="input-box">
+                  <i class="fas fa-lock"></i>
+                  <input
+                    type="tel"
+                    name="tel"
+                    placeholder="Ingrese telefono"
+                    required
+                  />
+                </div>
+                <div class="button input-box">
+                  <input type="submit" value="Registrar" />
+                </div>
+                <div class="text sign-up-text">
+                  ¿Ya tenes cuenta? <label for="flip">Inicia sesion</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

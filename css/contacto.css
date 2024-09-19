@@ -1,0 +1,38 @@
+  
+  .container-map {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .container-map iframe {
+      border-radius: 20px;
+  }
+  
+  .titulo {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-bottom: 50px;
+  }
+  
+  .numeros {
+      margin-left: 20px;
+      width: 400px;
+  }
+  
+  .num {
+      margin-left: 100px;
+  }
+  
+  .texto {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .texto h3 {
+      width: 500px;
+      background-color: #252525;
+      padding: 12px;
+      border-radius: 12px;
+  }

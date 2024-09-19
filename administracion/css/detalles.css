@@ -1,0 +1,156 @@
+.atras {
+  margin-left: 265px;
+  padding: 6px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s ease;
+  z-index: 999;
+}
+
+.atras:hover {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.logo-titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  margin-left: 260px;
+}
+
+.logo-titulo img {
+  width: 300px;
+
+}
+
+.trailer iframe{
+  border-radius: 12px;
+}
+
+.imagen {
+  margin-right: 20px;
+  width: 300px;
+  border-radius: 12px;
+}
+
+.port-tra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-left: 260px;
+  margin-top: -30px;
+  padding: 50px;
+}
+
+.caracte {
+  display: flex;
+  margin-left: 260px;
+  background-color: #2a2a2b;
+  border-radius: 30px 30px 0 0;
+}
+.resumen {
+  width: 100%;
+  text-wrap:balance;
+  margin: 14px;
+  background-color: #252425;
+  text-align: center;
+  padding: 8px;
+  border-radius: 12px;
+}
+.item-car {
+  padding: 20px;
+}
+
+.item-car p {
+  margin: 8px;
+}
+.puntos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -22px;
+  margin-top: -12px;
+}
+
+.puntos img {
+  width: 68px;
+}
+
+.right-box {
+  padding: 20px 40px;
+  margin: 50px;
+  min-width: 300px;
+  border-radius: 18px;
+  background-color: #1e1d1f;
+}
+
+.precio {
+  background-color: #21c001;
+  text-align: center;
+  padding: 8px;
+  border-radius: 22px;
+}
+
+.cantidad {
+  display: flex;
+  align-items: center;
+  flex-direction:row;
+}
+
+.cantidad input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 4px;
+  border-radius: 14px;
+  text-align: center;
+  border:2px solid #2a2a2b;
+}
+
+.pagos {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 18px;
+}
+
+.pagos img{
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+
+.pagos img:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-compra{
+  text-align: center;
+  background-color: #0026a5;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: .5s ease-in;
+}
+
+.btn-compra:hover {
+  transform: scale(1.1);
+  background-color: transparent;
+  border: 2px solid #0026a5;
+  border-radius: 20px;
+}
+
+.btn-compra input {
+  width: 20px;
+}
